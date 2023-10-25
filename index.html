@@ -10,62 +10,20 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <style>
-      html,
-      body {
-        overflow-x: hidden;
-      }
-
-      @import url("https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&family=Norican&display=swap");
-
-      @font-face {
-        font-family: "ahsingregular";
-        src: url("ahsing/ahsing-regular-webfont.woff2") format("woff2"),
-          url("ahsing/ahsing-regular-webfont.woff") format("woff");
-        font-weight: normal;
-        font-style: normal;
-      }
-
-      @font-face {
-        font-family: "bright_demoregular";
-        src: url("bright retro/bright_demo-webfont.woff2") format("woff2"),
-          url("bright retro/bright_demo-webfont.woff") format("woff");
-        font-weight: normal;
-        font-style: normal;
-      }
-
-      body {
-        background-color: #fff7eb;
-      }
-
-      .nav-link {
-        font-size: 1rem;
-        font-family: "Sanchez", serif;
-        font-weight: bold;
-      }
-
-      .gradient {
-        height: 14rem;
-        background-color: #fcd4a4;
-        background-image: linear-gradient(#fcd4a4, #fff7eb);
-        margin-top: -6rem;
-      }
-
-      footer {
-        /* height: 2rem; */
-        background-color: #f79046;
-        display: flex;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand d-flex" href="#">
+          <a class="navbar-brand d-flex" href="index.html">
             <img
               src="img/logo.png"
-              style="height: 52.2px; margin-top: 5px"
+              style="
+                height: 52.2px;
+                margin-top: 5px;
+                filter: drop-shadow(2px 2px rgba(0, 0, 0, 0.3));
+              "
               alt="Logo"
               class="d-inline-block align-text-top me-3 logo"
             />
@@ -105,20 +63,27 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item ms-3">
-                <a class="nav-link" style="color: #22263e" href="#"
+                <a class="nav-link" style="color: #22263e" href="tentang.html"
                   >TENTANG KAMI</a
                 >
               </li>
               <li class="nav-item ms-3">
-                <a class="nav-link" style="color: #22263e" href="#">SYARAT</a>
+                <a class="nav-link" style="color: #22263e" href="syarat.html"
+                  >SYARAT</a
+                >
               </li>
               <li class="nav-item ms-3">
-                <a class="nav-link" style="color: #22263e" href="#"
+                <a
+                  class="nav-link"
+                  style="color: #22263e"
+                  href="perlombaan.html"
                   >PERLOMBAAN</a
                 >
               </li>
               <li class="nav-item ms-3">
-                <a class="nav-link" style="color: #22263e" href="#">MERCH</a>
+                <a class="nav-link" style="color: #22263e" href="merch.html"
+                  >MERCH</a
+                >
               </li>
             </ul>
           </div>
@@ -126,7 +91,7 @@
       </nav>
     </header>
     <div class="gradient"></div>
-    <main>
+    <main class="text-center">
       <h1
         style="
           margin-top: -4rem;
@@ -139,7 +104,7 @@
       >
         WELCOME
       </h1>
-      <h2
+      <!-- <h2
         style="
           margin-top: -1.5rem;
           font-family: 'bright_demoregular';
@@ -150,10 +115,15 @@
         class="text-center"
       >
         LAURENSIA CUP 2024
-      </h2>
+      </h2> -->
+      <img
+        src="img/front.png"
+        alt=""
+        style="height: 12rem; margin-top: -3rem"
+      />
       <h3
         style="
-          margin-top: -1.5rem;
+          margin-top: -3rem;
           font-family: 'bright_demoregular';
           font-size: 3rem;
           color: #c8987c;

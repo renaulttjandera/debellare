@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Sanchez&family=Norican&display=swap");
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  background-color: #fff7eb;
+  color: #22263e;
+}
+
+@font-face {
+  font-family: "ahsingregular";
+  src: url("ahsing/ahsing-regular-webfont.woff2") format("woff2"),
+    url("ahsing/ahsing-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "bright_demoregular";
+  src: url("bright retro/bright_demo-webfont.woff2") format("woff2"),
+    url("bright retro/bright_demo-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "bodoniflfregular";
+  src: url("bodoni/bodoniflf-roman-webfont.woff2") format("woff2"),
+    url("bodoni/bodoniflf-roman-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Sanchez", serif;
+  font-weight: bold;
+}
+
+.gradient {
+  height: 14rem;
+  background-color: #fcd4a4;
+  background-image: linear-gradient(#fcd4a4, #fff7eb);
+  margin-top: -6rem;
+}
+
+footer {
+  /* height: 2rem; */
+  background-color: #f79046;
+  display: flex;
+}
