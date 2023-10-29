@@ -32,6 +32,10 @@ body {
   font-style: normal;
 }
 
+.s {
+  font-family: "Sanchez", serif;
+}
+
 .nav-link {
   font-size: 1rem;
   font-family: "Sanchez", serif;
