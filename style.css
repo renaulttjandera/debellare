@@ -54,3 +54,24 @@ footer {
   background-color: #f79046;
   display: flex;
 }
+
+ol li,
+ul.pertandingan li {
+  font-size: 22px;
+  font-family: "Sanchez", serif;
+  text-align: justify;
+}
+
+nav {
+  background-image: linear-gradient(
+    rgba(252, 212, 164, 1),
+    rgba(252, 212, 164, 0)
+  );
+}
+
+@media (max-width: 768px) {
+  .gradient {
+    background-color: transparent;
+    background-image: none;
+  }
+}
